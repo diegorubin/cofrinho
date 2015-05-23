@@ -156,7 +156,6 @@ public class WebServer
     
     private String getShadedWarUrl()
     {
-    	URL url = getResource(WEB_XML);
         String urlStr = getResource(WEB_XML).toString();
         return urlStr.substring(0, urlStr.length() - 15);
     }
